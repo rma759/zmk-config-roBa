@@ -68,7 +68,7 @@
         default_layer {
             bindings = <
 &kp Q    &kp L         &kp U       &kp COMMA  &kp PERIOD                                       &kp F      &kp W  &kp R  &kp Y  &kp P
-&kp E    &kp I         &kp A       &kp O      &kp MINUS      &kp LS(LG(S))      &kp MINUS      &lt 1 K    &kp T  &kp N  &kp S  &kp H
+&kp E    &kp I         &kp A       &kp O      &kp MINUS      &kp LS(LG(S))      &kp MINUS      &lt 1 K    &kp T  &kp N  &kp S  &lt 5 H
 &kp Z    &kp X         &kp C       &kp V      &kp SLASH      &kp COLON          &kp SEMICOLON  &lt 2 G    &kp D  &kp M  &kp J  &kp B
 &kp TAB  &kp LEFT_ALT  &kp DELETE  &kp LCTRL  &kp BACKSPACE  &kp LSHIFT         &kp ENTER      &kp SPACE                       &kp ESCAPE
             >;
@@ -116,10 +116,10 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &kp UP_ARROW    &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans          &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                       &trans
             >;
         };
 
