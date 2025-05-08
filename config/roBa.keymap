@@ -73,7 +73,7 @@
 &kp TAB  &kp LEFT_ALT  &kp DELETE  &kp LCTRL  &kp BACKSPACE  &kp LSHIFT         &kp ENTER      &kp SPACE                       &kp ESCAPE
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
         };
 
         FUNCTION {
