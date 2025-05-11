@@ -51,7 +51,7 @@
 
         FUNCTION {
             bindings = <
-&kp EXCLAMATION  &kp LEFT_BRACKET  &kp HASH     &kp DOLLAR  &kp EQUAL                         &kp DOUBLE_QUOTES  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp LS(BACKSLASH)  &kp LS(MINUS)
+&kp EXCLAMATION  &kp LEFT_BRACKET  &kp HASH     &kp DOLLAR  &kp EQUAL                         &kp DOUBLE_QUOTES  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp LS(SEMICOLON)  &kp LS(MINUS)
 &trans           &trans            &kp PERCENT  &kp CARET   &trans     &trans      &kp F13    &kp PLUS           &kp COLON      &kp SQT               &kp RIGHT_BRACKET  &kp BACKSLASH
 &trans           &trans            &trans       &trans      &trans     &trans      &kp MINUS  &kp MINUS          &kp SEMICOLON  &kp DOUBLE_QUOTES     &kp DOUBLE_QUOTES  &kp SLASH
 &trans           &trans            &trans       &trans      &trans     &trans      &trans     &trans                                                                     &kp NON_US_BACKSLASH
