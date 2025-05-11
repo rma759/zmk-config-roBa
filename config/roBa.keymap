@@ -76,10 +76,10 @@
 
         FUNCTION {
             bindings = <
-&kp EXCLAMATION  &kp LEFT_BRACKET  &kp HASH     &kp DOLLAR  &kp EQUAL                      &kp DOUBLE_QUOTES  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp JP_UNDERSCORE      &kp LS(MINUS)
-&trans           &trans            &kp PERCENT  &kp CARET   &trans     &trans      &trans  &kp PLUS           &kp COLON      &kp SQT               &kp RIGHT_BRACKET  &kp BACKSLASH
-&trans           &trans            &trans       &trans      &trans     &trans      &trans  &kp MINUS          &kp SEMICOLON  &kp DOUBLE_QUOTES     &kp DOUBLE_QUOTES  &kp SLASH
-&trans           &trans            &trans       &trans      &trans     &trans      &trans  &trans                                                                     &kp NON_US_BACKSLASH
+&kp EXCLAMATION  &kp JP_AT  &kp HASH     &kp DOLLAR  &kp EQUAL                      &kp JP_ASTERISK  &kp JP_LPAREN   &kp JP_RPAREN  &kp JP_UNDERSCORE      &kp LS(MINUS)
+&trans           &trans            &kp PERCENT  &kp CARET   &trans     &trans      &trans  &kp JP_PLUS           &kp JP_COLON      &kp JP_QUOTE               &kp JP_LBRACKET  &kp JP_RBRACKET
+&trans           &trans            &trans       &trans      &trans     &trans      &trans  &kp MINUS          &kp SEMICOLON  &kp JP_DQUOTE     &kp JP_DQUOTE  &kp SLASH
+&trans           &trans            &trans       &trans      &trans     &trans      &trans  &trans                                                                     &kp JP_YEN
             >;
         };
 
