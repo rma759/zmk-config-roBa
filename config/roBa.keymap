@@ -65,9 +65,9 @@
 
         default_layer {
             bindings = <
-&kp Q    &kp L         &kp U       &kp COMMA  &kp PERIOD                                           &kp F      &kp W  &kp R  &kp Y  &kp P
-&kp E    &kp I         &kp A       &kp O      &lt 1 MINUS    &kp LS(LG(S))       &lt 1 K           &lt 1 K    &kp T  &kp N  &kp S  &lt 5 H
-&kp Z    &kp X         &kp C       &kp V      &lt NUM SLASH    &kp LEFT_GUI        &lt NUM G           &lt NUM G    &kp D  &kp M  &kp J  &kp B
+&lt 6 Q  &kp L         &kp U       &kp COMMA  &kp PERIOD                                             &kp F        &kp W  &kp R  &kp Y  &kp P
+&kp E    &kp I         &kp A       &kp O      &lt 1 MINUS      &kp LS(LG(S))       &lt 1 K           &lt 1 K      &kp T  &kp N  &kp S  &lt 5 H
+&kp Z    &kp X         &kp C       &kp V      &lt NUM SLASH    &kp LEFT_GUI        &lt NUM G         &lt NUM G    &kp D  &kp M  &kp J  &kp B
 &kp TAB  &kp LEFT_ALT  &kp DELETE  &kp LCTRL  &kp BACKSPACE  &kp LEFT_SHIFT      &kp ENTER         &kp SPACE                       &kp ESCAPE
             >;
 
@@ -130,7 +130,7 @@
 &trans  &trans        &trans        &trans        &trans                           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
 &trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans        &trans        &trans        &trans        &trans
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
-&trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans                                                  &bt BT_CLR_ALL
+&trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans                                                  &bt trans
             >;
         };
     };
